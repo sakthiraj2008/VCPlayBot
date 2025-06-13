@@ -15,7 +15,7 @@ BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/9b13ea3ce046a1a5c8098.png
 admins = {}
 API_ID = int(getenv("11472991"))
 API_HASH = getenv("c78c50d54baf2173e8b3f75c359c0c72")
-BOT_USERNAME = getenv("miss_clara_chan_bot)
+BOT_USERNAME = getenv("miss_clara_chan_bot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Alexxa")
 OWNER_NAME = getenv("OWNER_NAME", "Offx SNE")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+eBzYtdaY7Bc2ZDVl")
@@ -24,7 +24,7 @@ SOURCE_CODE = getenv("SOURCE_CODE", "github.com/QueenArzoo/VCPlayBot")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
-LOG_GRP = getenv("LOG_GRP", None)
+LOG_GRP = getenv("LOG_GRP", "-1002318167392")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1430742022").split()))
